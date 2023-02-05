@@ -3,8 +3,6 @@ import numpy as np
 import time
 import pprint
 import plotly.io as pio
-import ssl
-ssl._create_default_https_context = ssl._create_unverified_context
 np.set_printoptions(suppress=True)
 pio.renderers.default = 'browser'
 pp = pprint.PrettyPrinter(indent=4)
